@@ -12,8 +12,18 @@ def porte(x,y,couleur):
     '''
     pass
 
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pendown()
+
+    turtle.fillcolor(couleur)
+    turtle.begin_fill()
+    rectangle(x, y, 30, 50)  # appel correct : x, y, largeur, hauteur
+
+
 
 if __name__ == '__main__':
     porte(0,0,"red")
     # On ferme la fenêtre s'il y a un clique gauche
     turtle.exitonclick()
+
