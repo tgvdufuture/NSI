@@ -18,7 +18,11 @@ def porte(x,y,couleur):
 
     turtle.fillcolor(couleur)
     turtle.begin_fill()
+<<<<<<< HEAD
     rectangle(x, y, 30, 50)
+=======
+    rectangle(x, y, 30, 50)  # appel correct : x, y, largeur, hauteur
+>>>>>>> 04debde73e3d8bd82d5af1b628994c3902543837
 
 
 

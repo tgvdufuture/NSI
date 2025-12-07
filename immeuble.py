@@ -1,6 +1,9 @@
 # module immeuble
 
+<<<<<<< HEAD
 import turtle
+=======
+>>>>>>> 04debde73e3d8bd82d5af1b628994c3902543837
 from couleur_aleatoire import couleur_aleatoire
 from random import randint
 from rdc import rdc
@@ -18,6 +21,7 @@ def immeuble(x, y_sol):
     '''
     # Nombre d'étage (aléatoire)
 
+<<<<<<< HEAD
     nombre_etage = randint(0,4)
 
     #Couleurs des éléments (aléatoire)
@@ -42,6 +46,27 @@ def immeuble(x, y_sol):
 
 if __name__ == '__main__':
     turtle.colormode(255)
+=======
+    pass
+
+    #Couleurs des éléments (aléatoire)
+
+    pass
+
+    # Dessin du RDC
+
+    pass
+
+    # Dessin des étages
+
+    pass
+
+    # Dessin du toit
+
+    pass
+
+if __name__ == '__main__':
+>>>>>>> 04debde73e3d8bd82d5af1b628994c3902543837
     immeuble(0,0)
     # On ferme la fenêtre s'il y a un clique gauche
     turtle.exitonclick()

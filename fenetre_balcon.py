@@ -12,12 +12,16 @@ def fenetre_balcon(x,y):
         puis le balcon
     '''
     # porte-fenetre
+<<<<<<< HEAD
     turtle.fillcolor("white")
     turtle.begin_fill()
+=======
+>>>>>>> 04debde73e3d8bd82d5af1b628994c3902543837
     rectangle(x,y,30,50)
 
 
     # balcon
+<<<<<<< HEAD
     turtle.pensize(4)
     rectangle(x-7,y+25,44,-26)
     trait(x, y+25, x, y-1)
@@ -30,6 +34,13 @@ def fenetre_balcon(x,y):
 
 
 
+=======
+    trait(x,y,x+50,y)
+    trait(x+50,y,x+50,y-30)
+    trait(x+50,y-30,x-30,y-30)
+    trait(x-30,y-30,x-30,y)
+    trait(x-30,y,x,y)
+>>>>>>> 04debde73e3d8bd82d5af1b628994c3902543837
 
 
 
